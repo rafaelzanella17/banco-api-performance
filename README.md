@@ -1,7 +1,5 @@
 # Testes de Performance com K6 e JavaScript
 
-Este repositório contém scripts de teste de performance desenvolvidos com o K6, focados em cenários de carga e estresse para a API do projeto **Banco API**.
-
 > 📁 Repositório oficial: [banco-api-performance](https://github.com/rafaelzanella17/banco-api-performance)
 
 ---
