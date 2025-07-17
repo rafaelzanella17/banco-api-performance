@@ -5,14 +5,12 @@ const postLogin = JSON.parse(open('../fixtures/postLogin.json'))
 
 
 export function obterToken() {
-  const url = `${pegarBaseURL}/login`
+  const url = `${pegarBaseURL()}/login`
   
     const payload = JSON.stringify(postLogin)
   
     const params = {
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      headers: { 'Content-Type': 'application/json' },
     };
   
     const res = http.post(url, payload, params)
