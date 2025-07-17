@@ -4,13 +4,13 @@ import { pegarBaseURL } from '../utils/variaveis.js';
 import { obterToken } from '../helpers/autenticacao.js'
 
 export const options = {
-  interations: 1
+  iterations: 1
 };
 
 export default function() {
   const token = obterToken()
 
-  const url = `${pegarBaseURL}/transferencias`
+  const url = `${pegarBaseURL()}/transferencias`
 
   const payload = JSON.stringify({
     contaOrigem: 1,
